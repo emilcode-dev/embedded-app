@@ -1,0 +1,5 @@
+if(TARGET_GROUP STREQUAL production)
+    add_subdirectory(src)
+elseif(TARGET_GROUP STREQUAL test)
+    add_subdirectory(tests)
+endif()
