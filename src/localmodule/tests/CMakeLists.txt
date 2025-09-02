@@ -1,0 +1,4 @@
+add_executable(testlocalmodule TestLocalModule.c)
+target_link_libraries(testlocalmodule localmodule unity)
+
+add_test(NAME UnittestLocalModule COMMAND testlocalmodule)
