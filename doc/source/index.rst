@@ -1,7 +1,7 @@
-Embedded Lib Documentation
+Embedded App Documentation
 ==========================
 
-Documentation for the minimal example library.
+Documentation for the minimal example application.
 
 .. toctree::
    :maxdepth: 2

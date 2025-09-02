@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Embedded Lib'
+project = 'Embedded App'
 copyright = '2025, Ephraim Eckl'
 author = 'Ephraim Eckl'
 release = '0.1.0'
@@ -19,9 +19,9 @@ extensions = [
 ]
 
 breathe_projects = {
-    "EmbeddedLib": "../builddoxy/xml"
+    "EmbeddedApp": "../builddoxy/xml"
 }
-breathe_default_project = "EmbeddedLib"
+breathe_default_project = "EmbeddedApp"
 
 templates_path = ['_templates']
 exclude_patterns = []

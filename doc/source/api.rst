@@ -2,7 +2,7 @@ API Dokumentation
 =================
 
 .. doxygenindex::
-   :project: EmbeddedLib
+   :project: EmbeddedApp
 
-.. .. doxygenfile:: embeddedlib.h
-..    :project: EmbeddedLib
+.. .. doxygenfile:: embeddedapp.h
+..    :project: EmbeddedApp

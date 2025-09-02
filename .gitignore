@@ -54,6 +54,8 @@ dkms.conf
 # CMake build directory
 /build/*
 
+CMakeUserPresets.json
+
 # Ignore test package build files
 /test_package/build/*
 test_package/CMakeUserPresets.json
